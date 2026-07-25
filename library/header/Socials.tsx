@@ -9,7 +9,7 @@ export const Socials=()=>{
         <div className='group relative flex item-center cursor-pointer'>
         <img src={emaillogo.src} className='h-8 w-8 object-cover rounded-full'/>
         <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 hidden group-hover:block bg-black text-white text-sm font-sans px-3 py-1 rounded shadow-lg whitespace-nowrap z-10">
-        manojlimbad@gmail.com
+        m@gmail.com
         </div>
         </div>
 
@@ -18,7 +18,7 @@ export const Socials=()=>{
         <div className='group relative flex item-center cursor-pointer'>
         <img src={phonelogo.src} className='h-8 w-8 object-cover rounded-full' />
         <div className="absolute top-full mt-2 left-1/2 -translate-x-1/2 hidden group-hover:block bg-black text-white text-sm font-sans px-3 py-1 rounded shadow-lg whitespace-nowrap z-10">
-        +91 8200600953
+        +91 1234567890
         </div>
         </div>
 
