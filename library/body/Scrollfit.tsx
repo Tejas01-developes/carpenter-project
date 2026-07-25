@@ -13,12 +13,13 @@ return(
 
             <p className='text-[#ffde5d] mt-4 text-2xl font-semibold animate-slide-from-right'>
                 Crafting furniture that lasts a lifetime
+                
             </p>
         </div>
 
-        <div className='flex w-[200%] h-full animate-infinite-scroll'>
-        <img src={furniture1.src} className='w-1/2 h-full object-cover' />
-        <img src={furniture2.src} className='w-1/2 h-full object-cover' />
+        <div className='flex w-[400vw] h-full animate-infinite-scroll'>
+        <img src={furniture1.src} className='w-screen h-full object-cover shrink-0' />
+        <img src={furniture2.src} className='w-screen h-full object-cover shrink-0' />
         </div>
         </section>
 )
