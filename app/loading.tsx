@@ -1,7 +1,8 @@
 "use client"
 import { useEffect, useState } from 'react'
 // import Lottie from 'lottie-react'
-import hammerloading from '../asset-imgs/Handsaw.json'
+// import hammerloading from '../asset-imgs/Handsaw.json'
+import load from '../asset-imgs/loading.json'
 import dynamic from 'next/dynamic'
 const Lottie=dynamic(()=>import('lottie-react'),{ssr:false})
 
@@ -15,7 +16,7 @@ export default function Loading(){
         <div className='fixed inset-0 z-50 flex flex-col items-center justify-center bg-white w-screen h-screen'>
         <div className='w-64 h-64'>
             {mounted && (
-                 <Lottie animationData={hammerloading} loop={true} autoPlay    style={{ width: 300, height: 300 }}/>
+                 <Lottie animationData={load} loop={true} autoPlay    style={{ width: 300, height: 300 }}/>
               
             )}
             
