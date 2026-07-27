@@ -1,10 +1,11 @@
 import { Card } from '@/library/body/Card';
 import { Scrollfit } from '@/library/body/Scrollfit'
+import { Services } from '@/library/body/Services';
 import { Headdiv } from '@/library/header/Headdiv'
 import React from 'react'
 
 const page = async() => {
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+
   return (
     <div>
     <Headdiv/>
@@ -17,6 +18,11 @@ const page = async() => {
     <Card endvalue={40} lable={"Years of Excellence"}/>
     </div>
     </section>
+
+<div>
+  <Services/>
+</div>
+
     </div>
   )
 }
