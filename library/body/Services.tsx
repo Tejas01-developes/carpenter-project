@@ -1,7 +1,13 @@
-import { div } from "framer-motion/client"
+"use client"
+import { useRouter } from "next/navigation"
+
+
 
 export const Services=()=>{
-
+const router=useRouter()
+const formnavigate=()=>{
+    router.replace("slot")
+}
     const features=[
         "Experience Advice",
         "Approx Quatation",
@@ -25,7 +31,7 @@ return(
             </div>
         ))}
         <div className="px-6 mt-auto">
-  <button className="w-full bg-[#ffde5d] text-neutral-900 font-bold text-lg py-3 rounded-lg hover:bg-yellow-400 hover:scale-[1.02] transition-all active:scale-95 shadow-md">Book Slot</button>
+  <button className="w-full bg-[#ffde5d] text-neutral-900 font-bold text-lg py-3 rounded-lg hover:bg-yellow-400 hover:scale-[1.02] transition-all active:scale-95 shadow-md" onClick={formnavigate}>Book Slot</button>
         </div>
         </div>
 
